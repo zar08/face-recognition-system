@@ -1,0 +1,15 @@
+2023-04-12 10:52:41 : DEBUG : load_ui : 152 : - Load UI -
+2023-04-12 10:52:41 : DEBUG : homepage : 100 : - Homepage -
+2023-04-12 10:52:41 : ERROR : homepage : 145 : Failed
+2023-04-12 10:52:41 : ERROR : homepage : 146 : [Errno 2] No such file or directory: 'C:\\Users\\nero1\\Desktop\\Softwares\\attendance-system\\Config\\Images\\python-logo.png'
+Traceback (most recent call last):
+  File "c:\Users\nero1\Desktop\Softwares\attendance-system\custom_tk.py", line 107, in homepage
+    img = Image.open(os.path.join(IMAGES_DIRECTORY, "python-logo.png"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nero1\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py", line 3227, in open
+    fp = builtins.open(filename, "rb")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\nero1\\Desktop\\Softwares\\attendance-system\\Config\\Images\\python-logo.png'
+2023-04-12 10:52:49 : DEBUG : exit_bot : 88 : - Exit Bot -
+2023-04-12 10:52:49 : DEBUG : quit_homepage : 78 : - Quit Homepage -
+2023-04-12 10:52:49 : DEBUG : exit_bot : 94 : Exit Bot
